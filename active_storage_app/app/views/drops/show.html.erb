@@ -5,6 +5,9 @@
   <%= @drop.title %>
 </p>
 
+<%= link_to 'View file', @drop.file %>
+<%= link_to 'Download file', @drop.file, download: '' %>
+
 <p>
   <strong>Description:</strong>
   <%= @drop.description %>
